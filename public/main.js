@@ -1,0 +1,7 @@
+const main = () => {
+    if('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/serviceWorker.js', { scope: '/' });
+    }
+};
+
+main();

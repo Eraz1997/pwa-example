@@ -1,0 +1,23 @@
+{
+    "lang": "en-gb",
+    "name": "Test App",
+    "short_name": "Test App",
+    "description": "A basic PWA",
+    "start_url": "/",
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff",
+    "orientation": "any",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "/icon512.png",
+            "sizes": "512x512"
+        },
+        {
+            "src": "/icon512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "pwa-example",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository": "git@github.com:Eraz1997/pwa-example.git",
+  "author": "Eraz1997",
+  "private": false,
+  "dependencies": {
+    "http-server": "^14.1.1"
+  },
+  "scripts": {
+    "dev": "http-server -p 3000 ./public"
+  }
+}
